@@ -34,4 +34,4 @@ void loop()
   digitalWrite(SS_PIN,LOW);
   shiftOut(DATA_PIN,CLOCK_PIN,MSBFIRST,c[0]);  
   digitalWrite(SS_PIN,HIGH);
-}
+} 
